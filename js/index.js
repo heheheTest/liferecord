@@ -100,7 +100,7 @@ window.addEventListener('load', function() {
         var data = getData()
         for (var i = 0; i < data.length; i++) {
             var arr = data[i].split('：');
-            num = parseInt(arr[1]);
+            num = parseFloat(arr[1]);
             many += num
 
             // console.log(parseInt(num[1]))
